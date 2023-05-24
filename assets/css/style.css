@@ -1645,6 +1645,11 @@ border:solid 1px #ddd;
   background-size: cover;
   min-height: 400px;
 }
+.Cevv-historique .image {
+  background: url("../img/acceuille/cevv-historique/abc-2.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
 @media (max-width: 991px) {
   .about .image {
     text-align: center;
