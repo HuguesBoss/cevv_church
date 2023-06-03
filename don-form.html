@@ -140,51 +140,72 @@
   </section><!-- End Hero -->
     <main id="main">
 
-    <header class="header">
-        <h1 class="header__title">Contacter le Departement de loren ispun</h1>
-      </header>
-      <div class="content">
-        <div class="content__inner">
-          <div class="container overflow-hidden">
-            <div class="multisteps-form">
-              <div class="row">
-                <div class="col-12 col-lg-8 m-auto">
-                  <form class="multisteps-form__form">
-                      <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect1">Example select</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlSelect2">Example multiple select</label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
-                          <option>1</option>
-                          <option>2</option>
-                          <option>3</option>
-                          <option>4</option>
-                          <option>5</option>
-                        </select>
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Example textarea</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                      </div>
-                    </form>
-                </div>
-              </div>
+        <!-- ======= Get Started Section ======= -->
+    <section id="get-started" class="get-started section-bg">
+      <div class="container">
+
+        <div class="row justify-content-between gy-4">
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-up">
+            <div class="content">
+              <h3>Proverbes 3:9-10.</h3>
+              <p>Honore l'Eternel avec tes biens, Et avec les prémices de tout ton revenu.</p>
+                <p>Alors tes greniers seront remplis d'abondance, Et tes cuves regorgeront de moût..</p>
             </div>
           </div>
+
+          <div class="col-lg-5" data-aos="fade">
+            <form  class="php-email-form">
+              <h3>FAIRE UN DON</h3><br>
+              <div class="row gy-3">
+
+                <div class="col-md-12">
+                  <input type="text" name="name" class="form-control" placeholder="Montant" required>
+                </div>
+                <div class="col-md-12">
+                    <select class="form-select" aria-label="Default select example" >
+                        <option value="">Mode de transfert</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="airtel">Airtel Money</option>
+                        <option value="master_card">Master Card</option>
+                        <option value="orange">Orange Money</option>
+                        <option value="mpesa">Mpesa</option>
+                        <option value="afrimoney">Afrimoney</option>
+                    </select>
+                </div>
+
+                <div class="col-md-12">
+                    <select class="form-select" aria-label="Default select example" >
+                        <option value="">Choisir le type de don</option>
+                        <option value="dime">Dîme</option>
+                        <option value="ordinaire">Offrande Ordinaire</option>
+                        <option value="speciale">Offrande Spéciale</option>
+                        <option value="parrot">Parrot</option>
+                        <option value="spider">Spider</option>
+                        <option value="goldfish">Goldfish</option>
+                    </select>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Motif" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your quote request has been sent successfully. Thank you!</div>
+
+                  <input value="Valider" class="btn btn-get-started"/>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Quote Form -->
+
         </div>
+
       </div>
+    </section><!-- End Get Started Section -->
 
   </main>
 
