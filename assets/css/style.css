@@ -395,12 +395,12 @@
 }
 
 .don-img {
-  margin-bottom: 1.5rem !important; 
-  border-radius: 8px !important; 
+  margin-bottom: 1.5rem !important;
+  border-radius: 8px !important;
   max-width: 100%;
-  height: auto; 
+  height: auto;
   vertical-align: middle;
-  border-style: none; 
+  border-style: none;
   box-sizing: border-box;
 }
 
@@ -417,7 +417,7 @@
   background: rgba(0, 0, 0, 0.5);
   z-index: 1;
 
-} 
+}
 .text-white {
   color: #fff !important;
 }
@@ -568,7 +568,7 @@ section {
   position: absolute;
   top: -100%;
   left: 0;
-  background-color: #69a0d1;
+  background-color: #ffc107;
 
   z-index: -1;
   opacity: 0;
@@ -672,7 +672,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #69a0d1;
+  background-color: #ffc107;
   color: var(--white);
   font-size: 32px;
   border-radius: 100px;
@@ -693,7 +693,7 @@ section {
   position: absolute;
   top: -100%;
   left: 0;
-  background-color: #69a0d1;
+  background-color: #ffc107;
 
   z-index: -1;
   opacity: 0;
@@ -1187,7 +1187,7 @@ section {
 --------------------------------------------------------------*/
 #header {
   background: rgba(21, 13, 4, 0.75);
-  
+
   transition: all 0.5s;
   z-index: 997;
   height: 80px;
@@ -1212,7 +1212,7 @@ section {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -1339,20 +1339,20 @@ section {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
-  
+
   .navbar .dropdown .dropdown:hover > ul {
-    left: 
+    left:
     -100%;
   }
-  
+
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
- 
+
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -1371,7 +1371,7 @@ section {
     /* max-width: 400px; */
     width: 100%;
     display: contents;
-}     
+}
 .google-map{
   width:330px; height:150;
 }
@@ -1608,7 +1608,7 @@ section {
   .google-map{
     width:330px; height:150;
   }
-  
+
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
@@ -1621,7 +1621,7 @@ section {
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
   }
-  
+
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
@@ -1730,7 +1730,7 @@ section {
 
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
-	
+
 
 	/* About */
 	#about .about {
@@ -1938,12 +1938,12 @@ border:solid 1px #ddd;
   margin-left: 60px;
 }
 .pasteur .image {
-  background: url("../img/acceuille/bg-1.JPG") center center no-repeat;
+  background: url("../img/acceuille/bg-1.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
 .Cevv-historique .image {
-  background: url("../img/acceuille/cevv-historique/abc-2.jpg") center center no-repeat;
+  background: url("../img/acceuille/abc-2.jpg") center center no-repeat;
   background-size: cover;
   min-height: 400px;
 }
@@ -1957,7 +1957,7 @@ border:solid 1px #ddd;
   .google-map{
     width:330px; height:150;
   }
-  
+
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
@@ -1970,7 +1970,7 @@ border:solid 1px #ddd;
   .google-map{
     width:330px; height:150;
   }
-  
+
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
@@ -2047,7 +2047,7 @@ border:solid 1px #ddd;
   .google-map{
     width:330px; height:150;
   }
-  
+
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
@@ -2538,7 +2538,7 @@ border:solid 1px #ddd;
   .google-map{
     width:330px; height:150;
   }
-  
+
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
@@ -2591,7 +2591,7 @@ border:solid 1px #ddd;
   .google-map{
     width:330px; height:150;
   }
-  
+
 	#services .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
